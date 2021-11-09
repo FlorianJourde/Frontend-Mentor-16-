@@ -4,6 +4,19 @@ let details = document.querySelectorAll('details');
 
 burgerIcon.addEventListener('click', function() {
   burgerMenu.classList.toggle('active');
+  burgerIcon.children[0].style.opacity = 0;
+
+  if (burgerMenu.classList.contains('active')) {
+    burgerIcon.children[0].addEventListener('webkitTransitionEnd', function() {
+      burgerIcon.children[0].src = "images/icon-close.svg"
+      burgerIcon.children[0].style.opacity = 1
+    });
+  } else {
+    burgerIcon.children[0].addEventListener('webkitTransitionEnd', function() {
+      burgerIcon.children[0].src = "images/icon-hamburger.svg";
+      burgerIcon.children[0].style.opacity = 1
+    });
+  }
 })
 
 details.forEach((targetDetail) => {

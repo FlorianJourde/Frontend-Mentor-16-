@@ -11,38 +11,41 @@
 <body>
   <nav>
     <div class="wrapper">
-      <a href="#"><img src="images/logo.svg" alt="" class="logo" aria-hidden="true"></a>
+      <a href="#">
+        <span class="sr-only">Blogr</span>
+        <img src="images/logo.svg" alt="" class="logo" aria-hidden="true">
+      </a>
       <button id="burger-icon">
         <img src="images/icon-hamburger.svg" alt="">
       </button>
       <div id="burger-menu" class="navigation">
         <div class="services">
-          <details href="#">
+          <details>
             <summary>Product <img src="images/icon-arrow-dark.svg" alt=""></summary>
-            <div class="accordion">
-              <a href="#">Overview</a>
-              <a href="#">Pricing</a>
-              <a href="#">Marketplace</a>
-              <a href="#">Features</a>
-              <a href="#">Integrations</a>
-            </div>
+            <ul class="accordion">
+              <li><a href="#">Overview</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Marketplace</a></li>
+              <li><a href="#">Features</a></li>
+              <li><a href="#">Integrations</a></li>
+            </ul>
           </details>
-          <details href="#">
+          <details>
             <summary>Company <img src="images/icon-arrow-dark.svg" alt=""></summary>
-            <div class="accordion">
-              <a href="#">About</a>
-              <a href="#">Team</a>
-              <a href="#">Blog</a>
-              <a href="#">Careers</a>
-            </div>
+            <ul class="accordion">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Team</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Careers</a></li>
+            </ul>
           </details>
-          <details href="#">
+          <details>
             <summary>Connect <img src="images/icon-arrow-dark.svg" alt=""></summary>
-            <div class="accordion">
-              <a href="#">Contact</a>
-              <a href="#">Newsletter</a>
-              <a href="#">LinkedIn</a>
-            </div>
+            <ul class="accordion">
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Newsletter</a></li>
+              <li><a href="#">LinkedIn</a></li>
+            </ul>
           </details>
         </div>
         <hr>
@@ -63,7 +66,7 @@
       </div>
     </div>
   </header>
-  <section id="section-1">
+  <section id="section-1" role="main">
     <div class="wrapper">
       <h2>Designed for the future</h2>
       <img class="mobile-illustration" src="images/illustration-editor-mobile-cropped.svg" alt="">
@@ -101,24 +104,30 @@
       <img src="images/logo.svg" alt="" class="logo" aria-hidden="true">
       <div class="navigation">
         <h4>Product</h4>
-        <a href="#">Overview</a>
-        <a href="#">Pricing</a>
-        <a href="#">Marketplace</a>
-        <a href="#">Features</a>
-        <a href="#">Integrations</a>
+          <ul>
+            <li><a href="#">Overview</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Marketplace</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Integrations</a></li>
+          </ul>
       </div>
       <div class="navigation">
         <h4>Company</h4>
-        <a href="#">About</a>
-        <a href="#">Team</a>
-        <a href="#">Blog</a>
-        <a href="#">Careers</a>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
       </div>
       <div class="navigation">
         <h4>Connect</h4>
-        <a href="#">Contact</a>
-        <a href="#">Newsletter</a>
-        <a href="#">LinkedIn</a>
+          <ul>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Newsletter</a></li>
+            <li><a href="#">LinkedIn</a></li>
+          </ul>
       </div>
     </div>
   </footer>
