@@ -320,7 +320,6 @@ header {
   background-size: 400%;
   background-repeat: no-repeat, repeat;
   border-bottom-left-radius: var(--br-primary);
-
   animation: backgroundAnimation 10s infinite;
 }
 
