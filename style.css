@@ -320,10 +320,10 @@ header {
   background-size: 400%;
   background-repeat: no-repeat, repeat;
   border-bottom-left-radius: var(--br-primary);
-  animation: backgroundAnimation 10s infinite;
+  animation: backgroundAnimationPrimary 10s infinite;
 }
 
-@keyframes backgroundAnimation {
+@keyframes backgroundAnimationPrimary {
   0%, 100% {
     background-size: 400%;
   }
@@ -393,6 +393,17 @@ header p {
   background-size: 150%;
   background-position: center top -200px;
   background-repeat: no-repeat;
+  animation: backgroundAnimationSecondary 10s infinite;
+}
+
+@keyframes backgroundAnimationSecondary {
+  0%, 100% {
+    background-size: 150%;
+  }
+
+  50% {
+    background-size: 154%;
+  }
 }
 
 #section-2 img {
@@ -580,7 +591,7 @@ footer a {
     padding-bottom: 0.2em;
   }
 
-  @keyframes backgroundAnimation {
+  @keyframes backgroundAnimationPrimary {
     0%, 100% { background-size: 200%, 100%; }
     50% { background-size: 210%, 100%; }
   }
@@ -615,6 +626,16 @@ footer a {
     padding-bottom: 0;
     background-size: 70%;
     background-position: top 80% left -50%;
+  }
+
+  @keyframes backgroundAnimationSecondary {
+    0%, 100% {
+      background-size: 70%;
+    }
+
+    50% {
+      background-size: 72%;
+    }
   }
 
   #section-2 img {
