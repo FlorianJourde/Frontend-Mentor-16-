@@ -467,6 +467,10 @@ footer .navigation {
   margin-top: 4em;
 }
 
+footer li + li {
+  margin-top: 0.5em;
+}
+
 footer a {
   margin-top: 0.6em;
   font-size: var(--fs-body-secondary);
@@ -596,6 +600,7 @@ footer a {
     background-image: url("images/bg-pattern-intro.svg"), linear-gradient(to right, var(--clr-very-light-red-header), var(--clr-light-red-header));
     background-position: center left 25%;
     background-size: 200%, 100%;
+    text-align: center;
   }
 
   header h1 {
@@ -617,7 +622,7 @@ footer a {
     background-image: url("images/illustration-editor-desktop-cropped.svg");
     background-repeat: no-repeat;
     height: 900px;
-    background-position: top 0 right -280px;
+    background-position: center right -550px;
   }
 
   #section-1 .content {
@@ -668,7 +673,7 @@ footer a {
     background-image: url("images/illustration-laptop-desktop-cropped.svg");
     background-repeat: no-repeat;
     height: 800px;
-    background-position: top 0 left -55%;
+    background-position: center left -600px;
   }
 
   #section-3 .content {
@@ -691,5 +696,25 @@ footer a {
 
   footer .navigation, footer .logo {
     margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 1050px) {
+  #section-1 {
+    background-position: center right -375px;
+  }
+
+  #section-3 {
+    background-position: center left -425px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #section-1 {
+    background-position: center right -280px;
+  }
+
+  #section-3 {
+    background-position: center left -300px;
   }
 }
