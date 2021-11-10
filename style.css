@@ -642,6 +642,7 @@ footer a {
     margin-top: 0;
     background-size: 70%;
     background-position: top 80% left -50%;
+    min-height: 410px;
   }
 
   @keyframes backgroundAnimationSecondary {
