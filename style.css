@@ -472,7 +472,6 @@ footer li + li {
 }
 
 footer a {
-  /*margin-top: 0.6em;*/
   font-size: var(--fs-body-secondary);
 }
 
@@ -655,7 +654,6 @@ footer a {
   }
 
   #section-2 img {
-    /*width: 42%;*/
     max-width: 400px;
     margin-bottom: -80px;
     margin-top: -80px;
